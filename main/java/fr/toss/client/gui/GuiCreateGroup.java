@@ -51,7 +51,7 @@ public class GuiCreateGroup extends GuiScreen {
     {
     	this.drawDefaultBackground();
         this.textfield.drawTextBox();
-    	this.drawCenteredString(this.fontRendererObj, ChatColor.UNDERLINE + "Creating a new group...", this.width / 2, 14, Integer.MAX_VALUE);
+    	this.drawCenteredString(this.fontRendererObj, ChatColor.UNDERLINE + "Creating a new group...", this.width / 2, 6, Integer.MAX_VALUE);
     	super.drawScreen(x, y, dunno);
     }
     
